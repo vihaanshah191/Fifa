@@ -1,0 +1,14 @@
+# API token — never commit
+.env
+
+# Match data cache files
+.cache_*.json
+
+# Notebook output images
+*_output.png
+*_sensitivity.png
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
