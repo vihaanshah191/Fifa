@@ -22,8 +22,8 @@ from scipy.stats import poisson
 API_TOKEN   = os.environ["FOOTBALL_DATA_API_TOKEN"]
 TEAM_A_NAME = "Portugal"
 TEAM_A_ID   = 765
-TEAM_B_NAME = "Uzbekistan"
-TEAM_B_ID   = 8070
+TEAM_B_NAME = "Spain"
+TEAM_B_ID   = 760
 MATCH_DATE  = "2026-06-22"
 
 BASE_URL = "https://api.football-data.org/v4"
@@ -35,7 +35,7 @@ DEFAULT_CW       = 1.0
 DECAY_HALF_LIFE  = 365   # days
 
 TEAM_COLORS = {"Portugal": "#006600", "Uzbekistan": "#009900"}
-COL_A = "#006600"; COL_B = "#1565C0"   # Portugal green, Uzbekistan blue
+COL_A = "#006600"; COL_B = "#AA151B"   # Portugal green, Spain red
 
 # ── API helpers ───────────────────────────────────────────────────────────────
 def api_get(url, params=None, retries=4):
